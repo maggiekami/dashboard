@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, IconButton, useTheme } from "@mui/material";
 import { useContext } from "react";
-import { ColorModeContext, tokens } from "../../theme";
+import { ColorModeContext, useMode, tokens } from "../../theme";
 import InputBase from "@mui/material/InputBase";
 
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
@@ -18,7 +18,13 @@ const Topbar = () => {
 
   return (
     <>
-      <Box display="flex" justifyContent="space-between" p={2}>
+      <Box
+        display="flex"
+        justifyContent="space-between"
+        p={2}
+        // zmien tu na jakis kolor
+        backgroundColor={colors.primary[300]}
+      >
         <Box
           display="flex"
           backgroundColor={colors.primary[400]}

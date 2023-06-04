@@ -10,7 +10,6 @@ function App() {
       <ThemeProvider theme={theme}>
         <div className="app">
           <main className="content">
-            <div>hello</div>
             <Topbar />
           </main>
         </div>
