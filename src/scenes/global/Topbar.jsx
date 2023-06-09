@@ -23,7 +23,7 @@ const Topbar = () => {
         justifyContent="space-between"
         p={2}
         // zmien tu na jakis kolor
-        backgroundColor={colors.primary[300]}
+        backgroundColor={colors.primary[500]}
       >
         <Box
           display="flex"
